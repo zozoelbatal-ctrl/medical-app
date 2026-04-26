@@ -1,0 +1,706 @@
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    overflow: auto;
+    position: fixed;
+    }
+*{
+  margin: 0%;
+    }
+    .img1{
+        width: 70px;
+        height: 50px;
+        margin-left: 70px;
+        float: left;
+        }
+    .list1{
+        list-style-type: none;
+        float: right;
+        margin-top: 10px;
+        margin-right: 90px;
+    }
+    .list1 li{
+        display: inline-block;
+    }
+    .list1 li a{
+        text-decoration: none;
+        color: beige;
+        margin-right: 30px;
+    }
+    /* ------------------------main----------------------------------- */
+    .main{
+        width: 100%;
+        height: 100vh;
+        background-image: url("images/WhatsApp\ Image\ 2025-12-28\ at\ 19.31.53\ \(1\).jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .overley{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .content{
+        position: absolute;
+        text-align: center;
+        top: 40%;
+        left: 40%;
+    }
+    .mh1{
+        color: white;
+    }
+    .mp{
+        color: white;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    /* ----------h.w----------- */
+    .mp1{
+        background-color: yellow;
+        width: 90px;
+        height: 30px;
+        border-radius: 6px;
+        color: beige;
+    }
+    .mp2{
+        background-color: blue;
+        width: 90px;
+        height: 30px;
+        border-radius: 6px;
+       color: beige;
+    }
+    .mp1:hover{
+        opacity: 0.8;
+     }
+    .mp2:hover{
+        opacity: 0.8;
+     } 
+      /*---------------------section1-----------------  */
+      .section1{
+        width: 100%;
+        height: 100vh;
+      }
+     .s1{
+        text-align: center;
+        padding-top: 100px;
+        font-size: 40px;
+     }
+     .line{
+        width: 70px;
+        border: 3px solid blue;
+        margin-left: 580px;
+     }
+     .child{
+        width: 350px;
+        height: 230px;
+        border: 2px solid gray;
+        float: left;
+        margin-left: 10px;
+        text-align: center;
+     }
+     .parent3{
+        overflow: auto;
+        padding-top: 50px;
+        padding-left: 110px;
+        padding-bottom: 50px;
+     }
+    .h1{
+        padding-top: 20px;
+     }
+     .p1{
+       color: gray;
+       padding-top: 20px; 
+       padding-bottom: 20px;
+     }
+     .a8{
+       padding-top: 20px;
+       text-decoration: none;
+     }
+     .i1{
+        color: blue;
+        font-size: 30px;
+        padding-top: 20px;
+     }
+   .child::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: 1s;
+   }
+   .child:hover::after{
+     width: 100%;
+    height: 100%;
+   }
+    .child:hover h1{
+    color: blue;
+   }
+   
+    .child{
+     position: relative;
+    }
+  /* -----------------section[2]------------------ */
+   .pp{
+    width: 100%;
+    height: 150vh;
+    background-color: lightgrey;
+   }
+   .child1{
+    background-color: beige;
+     width: 280px;
+    height: 260px;
+    margin-left: 50px;
+    border-radius: 6px;
+    float: left;
+    text-align: center;
+   }
+   .img2{
+    height: 260px;
+    margin-right: 2px;
+    width: 240px;
+   }
+   .parent5{
+    overflow: auto;
+        padding-top: 50px;
+        padding-left: 110px;
+        padding-bottom: 20gzpx;
+        }
+
+    .c2{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        visibility: hidden;
+        }
+   
+.child1:hover .c2{
+visibility: visible;   
+}
+.child1{
+position: relative;
+}
+ .i2{
+        color: blue;
+        font-size:25px;
+        margin-top: 10px;
+        background-color: aqua;
+       
+     }
+   .h{
+    color: cyan;
+    padding-top: 100px;
+    margin-bottom: 10px;
+     }
+.p{
+    color: beige;
+   margin-bottom: 10px;
+}
+    /* ---------------section3-------------- */
+    .sec3{
+        width: 100%;
+        height: 120vh;
+    }
+    .cs3{
+        width: 370px;
+        height: 200px;
+        border: 1px solid gray;
+        float: left;
+        margin-left: 30px;
+    }
+    .ps3{
+        overflow: auto;
+        margin-top: 30px;
+        margin-left: 20px;
+        }
+        .cs3 h2{
+            font-size: 32px;
+            margin-top: 40px;
+            margin-left: 10px;
+            display: inline-block;
+        }
+         .cs3 p{
+            font-size: 18px;
+            margin-top: 10px;
+            color: gray;
+            margin-left: 30px;
+        }
+        .cs3 i{
+            font-size: 30px;
+            color: blue;
+            margin-left: 30px;
+        }
+      
+     .cs3::after{
+    content: "";
+    position: absolute;
+
+    width: 0;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 1s;
+   } 
+   .cs3:hover::after{
+     width: 100%;
+    height: 100%;
+   }
+   .cs3{
+    position: relative;
+   }
+  .cs3:hover h2{
+    color: blue;
+   }
+   /* --------------section4----------- */
+   .sec4{
+     width: 100%;
+    height: 100vh;
+    background-color: rgb(230, 223, 223);
+   }
+   .cs4{
+    float: left;
+    width: 45%;
+   }
+   .ps4{
+    overflow: auto;
+   }
+   .cs44{
+     float: right;
+    width: 45%;
+   
+   }
+.cs44 img{
+  width: 83%;
+    height: 85vh;
+    margin-top: 15vh;   
+}  
+.cs4 h2{
+    margin-top: 150px;
+    font-size: 45px;
+    margin-left: 100px;
+} 
+.p111{
+    color: gray;
+    margin-left: 100px;
+    font-size: 23px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.p222{
+    color: gray;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 19px; 
+}
+.cs4 div{
+ margin-left: 100px;
+width: 70px;
+border: 3px solid blue ;
+margin-bottom: 2px;
+}
+.cs4 i{
+ margin-left: 100px;
+ color: blue;
+ font-size: 27px;
+
+}
+/* --------------------section5--------------------- */
+.sec5{
+    width: 100%;
+    height: 50vh;
+    overflow: auto;
+    margin-top: 165%;
+    background-image: url("images/WhatsApp Image 2026-03-09 at 13.58.05.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.cs5{
+ float: left;
+ margin-bottom: 50px;
+ width: 100px;
+ height: 100px;
+ margin-left: 175px;
+ text-align: center;
+ margin-top: 80px;
+ }
+ .sec5 img{
+      width: 100%;
+    height: 50vh;
+    }
+ .sec5 i{
+    color: blue;
+    display: inline-block;
+    font-size: 50px; 
+    
+    
+ }
+/* ------------------sec6-------------------- */
+.sec6{
+width: 100%;
+height: 100vh;
+ background-color: rgb(230, 223, 223);
+}
+.ps6{
+    overflow: auto;
+    margin-top: 50px;
+}
+.cs6{
+    float: left;
+    border: 3px solid gray;
+    width: 350px;
+    height: 340px;
+    margin-left: 50px;
+  text-align: center;
+}
+.cs6 div{
+    width: 90px;
+    height: 90px;
+    border:  3px solid blue;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    
+  }
+  .cs6 h2{
+    color: grey;
+    margin-top: 50px;
+  }
+  .dcs6 h1{
+       font-size: 40px;
+  }
+.dcs6 p{
+    color: grey;
+}
+.cs6 p{
+ color: grey;
+}
+.cs6 button{
+    font-size: 19px;
+    border: 2px solid blue;
+    margin-top: 10px;
+  
+}
+/* ------------------------- */
+ .cs6::after{
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 1s;
+   } 
+   .cs6:hover::after{
+     width: 100%;
+    height: 100%;
+   }
+   .cs6{
+   position: relative;
+   }
+  .cs6:hover h2{
+    color: aqua;
+   }
+   .cs6:hover div h1{
+    color: aqua;
+   }
+    .cs6:hover div p{
+    color: aqua;
+   }
+   /* -------------sec7------------ */
+   .sec7{
+    width: 100%;
+    height: 250px;
+    background-image: url("images/WhatsApp Image 2026-03-29 at 20.11.45.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   }
+  .cir{
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    background-color: white;
+  }
+  .ps7{
+    display: flex;
+    margin-left: 300px;
+   }
+   .cir img{
+    height: 80px;
+    width: 70px;
+    margin-left: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+   }
+   .cs7{
+    margin-top: 50px;
+    margin-left: 70px;
+   }
+   /* -------------sec8--------------- */
+   .sec8{
+    width: 100%;
+    height: 100vh;
+   }
+   .ps8{
+    display: flex;
+    margin-top: 80px;
+     margin-left: 130px;
+   }
+   .cs8{
+     width: 300px;
+     height: 300px;
+     margin-left: 25px;
+     background-color: rgba(138, 134, 134, 0.5);
+     text-align: center;
+   }
+   .imgs8{
+    height: 150px;
+    width: 270px;
+    background-image: url("images/WhatsApp Image 2026-04-05 at 20.11.16 (1).jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 15px;
+    margin-top: 15px;
+      }
+      .cs8 h2{
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .cs8 p{
+        color: rgba(73, 72, 72, 0.5);
+      }
+      .imgs82{
+    height: 150px;
+    width: 270px;
+    background-image: url("images/WhatsApp Image 2026-04-05 at 20.11.16.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 15px;
+    margin-top: 15px;
+      }
+    .imgs83{
+    height: 150px;
+    width: 270px;
+    background-image: url("images/WhatsApp Image 2026-04-05 at 20.11.16 (2).jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 15px;
+    margin-top: 15px;
+      }
+      .is8 i{
+        font-size: 25px;
+        color: white;
+        margin-top: 10px;
+      }
+      .is8{
+        width: 35px;
+        height: 110px;
+        background-color: rgba(48, 117, 186);
+        float: right;
+        visibility: hidden;
+      }
+      .cs8:hover .is8{
+        visibility: visible;
+      }
+      /* ---------------- */
+      .cs8::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 1s;
+   } 
+   .cs8:hover::after{
+     width: 100%;
+    height: 100%;
+   }
+   .cs8{
+   position: relative;
+   }
+   /* ---------- */
+    .imgs8::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 1s;
+   } 
+   .cs8:hover .imgs8::after{
+     width: 100%;
+    height: 100%;
+   }
+   .imgs8{
+   position: relative;
+   }
+   /* ---- */
+   .imgs82::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 1s;
+   } 
+   .cs8:hover .imgs82::after{
+     width: 100%;
+    height: 100%;
+   }
+   .imgs82{
+   position: relative;
+   }
+   /* ------- */
+   .imgs83::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 1s;
+   } 
+   .cs8:hover .imgs83::after{
+     width: 100%;
+    height: 100%;
+   }
+   .imgs83{
+   position: relative;
+   }
+   .cs8:hover h2{
+    color: white;
+   }
+   .cs8:hover p{
+    color: blue;
+   }
+      /* ----------------sec9------------------ */
+    .sec9{
+      height: 150vh;
+      width: 100%;
+    } 
+    .cs9{
+      width: 350px;
+      height: 550px;
+     
+     margin-left: 25px;
+     
+    }
+    .ps9{
+     display: flex;
+     margin-top: 80px;
+     margin-left: 50px;
+    }
+    .cs9 img{
+      width: 300px;
+      height: 250px;
+    }
+    .cs9 a{
+      margin-right: 280px; 
+       text-align: left;
+       text-decoration: none;
+    }
+    .cs9 h5{
+        display: inline-block;
+        margin-left: 40px;
+        
+        font-size: px;
+    }
+    .cs9 i{
+        font-size: 17px;
+        text-align: center;
+        margin-left: 50px;
+    }
+    .cs9 h1{
+      margin-left: 1;
+      text-align: left;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .cs9 p{
+      text-align: left;
+      color: grey; 
+      
+    }
+     .cs9::after{
+    content: "";
+    position: absolute;
+
+    width: 100;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 2s;
+   } 
+   .cs9:hover::after{
+     width: 100%;
+    height: 100%;
+   }
+   .cs9{
+   position: relative;
+   }
+   .cs9 {
+    text-decoration: none;
+   }
+   /* ----------------------- */
+  .sec10{
+    width: 100%;
+    height:50vh;
+    background-color: grey;
+    display: flex;
+    text-align: center;
+ }
+  .cs10 img{
+    
+    width: 400px;
+    height:150px;
+    background-repeat: no-repeat;
+    margin-left: 100%;
+    margin-top: 10%;
+   }
+   .cs10 i{
+    display: inline-block;
+    margin: auto;
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 200px;
+    color:  rgb(10, 114,255 );
+   }
+.cs10 p{
+   margin-top: 15px;
+   font-size: 15px;
+   color: white;
+}
+.cs10 i:hover{
+   color: blue;
+
+}
